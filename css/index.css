@@ -246,12 +246,16 @@ img {vertical-align: middle; height: 400px;}
 		width: 100%;
 	}
 
+	.lorem1{
+		width: 90%;
+	}
+
 }
 
 @media (max-width: 600px) {
 
 	.lorem1{
-		width: 100%;
+		width: 90%;
 	}
 
 	.maps{

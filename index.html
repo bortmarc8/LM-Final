@@ -3,31 +3,149 @@
 <head>
 	<title>Parque de atracciones</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<meta charset="utf-8">
 </head>
 <body>
 	<div class="header">
-		<div id="logo">
-			<img src="img/logo.png">
-				
-		</div>
+		<div id="logo"></div>
 		<div class="botonera">
-			<div class="boton">
-				<h2>Atracciones</h2>	
-			</div>
-			<div class="boton">
-				<h2>Precios</h2>		
-			</div>
-			<div class="boton">
-				<h2>Sobre nosotros</h2>		
+			<div class="linkbtn">
+				<a href="atracciones.html">
+					<div class="boton">
+						<center>
+							<h3>Atracciones</h3>
+						</center>
+					</div>
+				</a>
 			</div>
 			<div class="linkbtn">
 				<a href="reserva.html">
 					<div class="boton">
-						<h2>Reserva tu entrada</h2>
+						<center>
+							<h3>Precios</h3>
+						</center>
+					</div>
+				</a>
+			</div>
+			<div class="linkbtn">
+				<a href="reserva.html">
+					<div class="boton">
+						<center>
+							<h3>Reserva tu entrada</h3>
+						</center>
+					</div>
+				</a>
+			</div>
+			<div class="linkbtn">
+				<a href="index.html">
+					<div class="boton" style="background-color: #888888">
+						<center>
+							<h3>Sobre nosotros</h3>
+						</center>
 					</div>
 				</a>
 			</div>
 		</div>			
 	</div>
+	<center>
+			<br>
+			<h1>¿Quienes somos?</h1>
+		</center>
+<div class="bodyDiv">
+			<div class="lorem1">
+					<p>LandPark World es un complejo de ocio, situado en los municipios tarraconenses de Vilaseca y Salou en España. Con 4,7 millones de visitantes durante el año 2017, es una de las principales atracciones de la Costa Dorada, cuenta con LandPark Park, el parque temático más visitado de España y el sexto de Europa.
+					El complejo, que ha sido ampliado en varias ocasiones desde su creación, consta de dos parques temáticos (LandPark Park y Ferrari Land), un parque acuático (LandPark Caribe Aquatic Park), un campo de golf (Mediterránea Beach&Golf), cinco hoteles temáticos de 4 estrellas y uno de 5. El 7 de abril de 2017 se inauguró una nueva ampliación, Ferrari Land, el único parque temático de Ferrari en Europa y el segundo del mundo. LandPark World también dispone de estacionamiento en parking para autocaravanas.
+					</p>
+				</div>
+				<div class="lorem1">
+					<p>En las inmediaciones de LandPark World se instalará Hard Rock Entertainment World, un macrocomplejo turístico y de ocio que contará con dos hoteles, un centro comercial y un casino, hecho que supondrá la ampliación del resort de LandPark World, incluyendo los parques temáticos y el parque acuático, debido a que está previsto construir seis complejos que recrearán diversas áreas del mundo, como por ejemplo China, Estados Unidos, Brasil, Rusia, India y Europa</p>
+				</div>
+			</div>
+			<div class="bodyDiv" style="height: 250px;">
+			<div class="image1Iz">
+				<center>
+					<a href="atracciones.html">
+						<div style="background-color: #000000AA; padding: 15px; margin: 100px;"><h2 style="font-family: 'Century Gothic'; color: #FFFFFFCC;">¡Descubre nuestras nuevas atracciones!</h2></div>
+					</a>
+				</center>
+				</div>
+</div>
+			<div id="textSlider" style="background-color: #000000;">
+				<div id="textSlider2">
+					<p>Después del éxito de Landpark en Anaheim, California y de LandPark World en Lake Buena Vista, Florida, surgieron en 1972 los planes para construir un parque de temática similar en Europa. Bajo la dirección de E. Cardon Walker, se abrió en 1983 Tokio Landpark, en Japón, con un éxito inmediato, catalizando la extensión internacional.
+
+					A finales de 1984, los jefes de la división de parques temáticos de LandPark, Dick Nunis y Jim Cora, presentaron una lista de aproximadamente 1200 localizaciones europeas posibles para el parque.
+
+					Hacia marzo de 1985, el número de posibles localizaciones para el parque había sido reducido a cuatro; dos en Francia y dos en España. Ambos países dieron cuenta del potencial económico y ventajas turísticas de un parque temático LandPark, y compitieron ofreciendo oportunidades de financiación a The LandPark Company</p>
+				</div>
+				<div id="textSliderSlider">
+				<div class="slideshow-container">
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 3</div>
+		  <img src="img/fur.jpg" style="width:100%">
+		  <div class="text">Caption Text</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 3</div>
+		  <img src="img/port.jpg" style="width:100%">
+		  <div class="text">Caption Two</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 3</div>
+		  <img src="img/tutu.jpg" style="width:100%">
+		  <div class="text">Caption Three</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";  
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		}
+		</script>
+
+				</div>
+			</div>
+<div class="bodyDiv" style="height: 250px;">
+	<div class="image1Iz" style="background-image: url('img/support.jpg');">
+		<center>
+			<a href="mailto: maboto01@floridauniversitaria.es">
+				<div style="background-color: #000000AA; padding: 15px; margin: 75px;"><h2>Si tienes dudas contacta con nosotros</h2></div>
+			</a>
+		</center>
+	</div>
+</div>
+
+<div style="height: 1000px; margin-top: 100px;">
+	<center>
+		<h1>¿Donde estamos?</h1>
+		<br>
+		<br>
+		<iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12028.81670726382!2d1.1479072357204345!3d41.08638533386242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a159e61d964f11%3A0x545aab951bd2a8d0!2sPortAventura%20Park!5e0!3m2!1ses!2ses!4v1588849711567!5m2!1ses!2ses" width="800" height="600" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</center>
+</div>
 </body>
 </html>

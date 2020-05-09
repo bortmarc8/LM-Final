@@ -6,6 +6,18 @@
 	<meta charset="utf-8">
 </head>
 <body>
+
+	<div class="btn-tlf"><button onclick="mobileHeader()" class="btn-tlf2"></button></div></div>
+	<script type="text/javascript">
+		function mobileHeader() {
+			if (document.getElementById("headerTLF").style.display == "none") {
+				document.getElementById("headerTLF").style.display = "block";
+
+			}else{
+				document.getElementById("headerTLF").style.display = "none";
+			}
+		}
+	</script>
 	<div class="header">
 		<div id="logo"></div>
 		<div class="botonera">
@@ -47,8 +59,48 @@
 			</div>
 		</div>			
 	</div>
+		<div class="headerTLF" id="headerTLF" style="display: none;">
+			<div class="botonera">
+				<div class="linkbtn">
+					<a href="atracciones.html">
+						<div class="boton">
+							<center>
+								<h3>Atracciones</h3>
+							</center>
+						</div>
+					</a>
+				</div>
+				<div class="linkbtn">
+					<a href="reserva.html">
+						<div class="boton">
+							<center>
+								<h3>Precios</h3>
+							</center>
+						</div>
+					</a>
+				</div>
+				<div class="linkbtn">
+					<a href="reserva.html">
+						<div class="boton">
+							<center>
+								<h3>Reserva tu entrada</h3>
+							</center>
+						</div>
+					</a>
+				</div>
+				<div class="linkbtn">
+					<a href="index.html">
+						<div class="boton" style="background-color: #888888">
+							<center>
+								<h3>Sobre nosotros</h3>
+							</center>
+						</div>
+					</a>
+				</div>
+			</div>			
+		</div>
+	</div>
 	<center>
-			<br>
 			<h1>¿Quienes somos?</h1>
 		</center>
 <div class="bodyDiv">

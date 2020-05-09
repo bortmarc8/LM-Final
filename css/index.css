@@ -1,18 +1,51 @@
 .header{
-	background-color: #352D39;
-	height: 85px;
+	background-color: #222222;
+	height: 67px;
+	padding: 3px;
 	display: flex;
 	flex-direction: row;
 	margin: 0;
 }
 
+button{
+	background-color: #00000000;
+	border-color: #00000000;
+	outline: none;
+}
+
+.btn-tlf{
+	width: 100%;
+	display: none;
+	flex-direction: row-reverse;
+	height: 60px;
+	z-index: 2;
+}
+
+.btn-tlf2{
+	height: 45px;
+	width: 45px;
+	margin-top: 25px;
+	margin-right: 25px;
+	background-image: url("../img/menu.png");
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: 50% 50%;
+  	display: block;
+  	z-index: 2;
+}
+
+.headerTLF{
+	width: 0px;
+}
+
 #logo{
-	height: 85px;
-	margin-left: 2px;
-	margin-right: 2px;
-	max-width: 250px;
-	border-radius: 15px;
-	background-image: "img/logo.png";
+	height: 65px;
+	width: 250px;
+	background-image: url("../img/logo.png");
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: 50% 50%;
+  	margin: 1px;
 }
 
 .boton{
@@ -21,18 +54,18 @@
 	margin-left: 2px;
 	margin-right: 2px;
 	width: 200px;
-	padding-top:15px;
 	border-radius: 15px;
+	padding-top: 5px;
 }
 
 .boton:hover{
 	background-color: #666666;
-	height: 67px;
+	height: 65px;
 	margin-left: 2px;
 	margin-right: 2px;
 	width: 200px;
-	padding-top:18px;
 	border-radius: 15px;
+	padding-top: 5px;
 }
 
 .botonera{
@@ -50,6 +83,10 @@
 .lorem1{
 	width: 45%;
 	margin-left: 3%;
+}
+
+.linkbtn{
+	height: 21px;
 }
 
 .image1Iz{
@@ -198,17 +235,77 @@ img {vertical-align: middle; height: 400px;}
   to {opacity: 1}
 }
 
+.menuSlide{
+	-webkit-animation-name: slide;
+  	-webkit-animation-duration: 0.5s;
+  	animation-name: slide;
+ 	animation-duration: 0.5s;
+}
+
+@-webkit-keyframes slide {
+  from {margin-left: -350px;} 
+  to {margin-left: 0px;}
+}
+
+@keyframes slide {
+  from {margin-left: -350px;} 
+  to {margin-left: 0px;}
+}
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
 
 /*Media para pantallas de teléfono*/
-@media (max-width: 850px) {
+
+@media(max-width: 1050px){
 	.header{
 		display: none;
 	}
 
+	.linkbtn{
+		height: 62px;
+		width: 100%;
+		margin: 0;
+	}
+
+	.btn-tlf{
+		opacity: 0.8;
+		display: flex;
+		background-color: transparent;
+		border: none;
+  		color: transparent;
+	}
+
+	.headerTLF{
+		position: absolute;
+		z-index: 1;
+		background-color: #111111AA;
+		width: 85%;
+		margin-top: -60px;
+	}
+
+	.botonera{
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.boton{ 
+		background-color: #444444;
+		border-radius: 0px;
+		width: 100%;
+	}
+
+	.boton:hover{
+		background-color: #666666;
+		border-radius: 0px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 850px) {
 	#textSlider{
 		display: flex;
 		flex-direction: column;
@@ -231,11 +328,6 @@ img {vertical-align: middle; height: 400px;}
 		width: 95%;
 	}
 
-	.boton{
-		margin-left: 4;
-		margin-right: 0;
-	}
-
 	html{
 		width: 100%;
 	}
@@ -249,7 +341,6 @@ img {vertical-align: middle; height: 400px;}
 	.lorem1{
 		width: 90%;
 	}
-
 }
 
 @media (max-width: 600px) {
@@ -263,4 +354,21 @@ img {vertical-align: middle; height: 400px;}
 		width: 90%;
 	}
 
+	.headerTLF{
+		width: 70%;
+	}
+
+}
+
+@media (min-width: 485px){
+	body{
+		display: block;
+	}
+}
+
+@media (max-width: 484px){
+	body{
+		display: flex;
+		flex-direction: column;
+	}
 }

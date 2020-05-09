@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atracciones>
+	<atraccion>
+		<nombre>FURIUS BACO</nombre>
+		<lugar>Mediterrània</lugar>
+		<descripcion>Descubre la increíble catapulta horizontal de PortAventura, que te propulsará a 135 km/h en apenas 3 segundos.</descripcion>
+		<nombreIMG>furiusbaco-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>PORT DE LA DRASSANA</nombre>
+		<lugar>Mediterrània</lugar>
+		<descripcion>Embárcate con nosotros en un paseo en barco hasta la antigua China.</descripcion>
+		<nombreIMG>port-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>ESTACIÓ DEL NORD</nombre>
+		<lugar>Mediterrània</lugar>
+		<descripcion>No dejes pasar la oportunidad de subir a esta locomotora con destino al Lejano Oeste.</descripcion>
+		<nombreIMG>estacio-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>TUTUKI SPLASH</nombre>
+		<lugar>Polynesia</lugar>
+		<descripcion>Siente en tu cuerpo la furia del volcán y escapa de él de la manera más refrescante.</descripcion>
+		<nombreIMG>tutuki-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>CANOES</nombre>
+		<lugar>Polynesia</lugar>
+		<descripcion>Pensada para que también los más pequeños disfruten de las emociones de la selva de Polynesia.</descripcion>
+		<nombreIMG>canoes-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>KONTIKI</nombre>
+		<lugar>Polynesia</lugar>
+		<descripcion>Solo el catamarán Kontiki resiste a la furia de una tormenta de Polynesia. Únete a la expedición y resiste a los movimientos de un auténtico temporal.</descripcion>
+		<nombreIMG>kontiki-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>SHAMBHALA</nombre>
+		<lugar>China</lugar>
+		<descripcion>Sus 76 metros de altura la convierten en la montaña rusa más alta y con la caída más larga de PortAventura Park.</descripcion>
+		<nombreIMG>shambala-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>DRAGON KHAN</nombre>
+		<lugar>China</lugar>
+		<descripcion>Un icono entre las montañas rusas. Los 8 loopings y más de 110 km/h de Dragon Khan son una tentación desde la primera vez que la ves.</descripcion>
+		<nombreIMG>dragon-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>ANGKOR</nombre>
+		<lugar>China</lugar>
+		<descripcion>Dispara con la pistola de agua a todos los obstáculos que se pongan en tu camino mientras cruzas la jungla y desembarca como un auténtico héroe.</descripcion>
+		<nombreIMG>angkor-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>WAITAN PORT</nombre>
+		<lugar>China</lugar>
+		<descripcion>Esta atracción es un agradable paseo en barca para ir desde PortAventura China hasta PortAventura Mediterrània</descripcion>
+		<nombreIMG>waitan-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>COBRA IMPERIAL</nombre>
+		<lugar>China</lugar>
+		<descripcion>Cobra Imperial de PortAventura China es uno de los símbolos de esta área temática y está pensada para satisfacer los deseos de los más pequeños de la casa.</descripcion>
+		<nombreIMG>cobra-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>TEA CUPS</nombre>
+		<lugar>China</lugar>
+		<descripcion>En esta atracción de PortAventura World te están esperando unas tazas de té gigantes para que te subas a girar en ellas con toda tu familia.</descripcion>
+		<nombreIMG>tea-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>ÁREA INFANTIL</nombre>
+		<lugar>China</lugar>
+		<descripcion>El área infantil de PortAventura Park está pensada para que los niños creen sus propias aventuras en los toboganes infantiles, columpios y pasarelas que llenan la zona infantil.</descripcion>
+		<nombreIMG>infantil-min</nombreIMG>
+	</atraccion>
+		<atraccion>
+		<nombre>YUCATÁN</nombre>
+		<lugar>México</lugar>
+		<descripcion>Una serpiente con cabeza de dragón te da la bienvenida a México PortAventura. ¿Serás capaz de resistir sus giros?</descripcion>
+		<nombreIMG>yucatan-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>LOS POTRILLOS</nombre>
+		<lugar>México</lugar>
+		<descripcion>Unos simpáticos y revoltosos caballitos mexicanos llevarán a los más pequeños a través de la vegetación más densa y las tierras más exóticas de México PortAventura.</descripcion>
+		<nombreIMG>potrillos-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>ARMADILLOS</nombre>
+		<lugar>México</lugar>
+		<descripcion>Estos divertidos animales mexicanos se han puesto sus mejores galas para que los más pequeños den un agradable paseo por la colonial zona de México PortAventura.</descripcion>
+		<nombreIMG>armadillos-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>SERPIENTE EMPLUMADA</nombre>
+		<lugar>México</lugar>
+		<descripcion>Únete al ritual y gira alrededor del tótem sagrado a lomos de la Serpiente Emplumada;y vive al máximo las subidas y bajadas de  esta poderosa atracción de PortAventura en el área de México.</descripcion>
+		<nombreIMG>serpiente-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>HURAKAN CONDOR</nombre>
+		<lugar>México</lugar>
+		<descripcion>Una atracción con 100 metros de caída libre solo apta para los visitantes más aventureros de México PortAventura.</descripcion>
+		<nombreIMG>hurakan-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>TREN DE LA MINA</nombre>
+		<lugar>México</lugar>
+		<descripcion>Recorre a toda velocidad la mina de El Diablo en un auténtico vagón de madera y no te pierdas ni un solo detalle.</descripcion>
+		<nombreIMG>mina-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>EL SECRETO DE LOS MAYAS</nombre>
+		<lugar>México</lugar>
+		<descripcion>Un laberinto de sensaciones y efectos visuales de 175 m2 de longitud, poseído por los dioses mayas, que pondrá a prueba tus habilidades como aventurero de PortAventura World.</descripcion>
+		<nombreIMG>mayas-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>BUFFALO RODEO</nombre>
+		<lugar>Far West</lugar>
+		<descripcion>Aprende el arte del rodeo y monta tu propio búfalo en esta atracción del mundo Far West de PortAventura, en la que impera la ley del más fuerte.</descripcion>
+		<nombreIMG>rodeo-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>SILVER RIVER FLUME</nombre>
+		<lugar>Far West</lugar>
+		<descripcion>Móntate en un divertido tronco talado y refréscate en un entretenido camino hasta el aserradero de PortAventura World.</descripcion>
+		<nombreIMG>silver-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>PENITENCE STATION</nombre>
+		<lugar>Far West</lugar>
+		<descripcion>¡Pasajeros al tren! ¡Se anuncia la salida del tren de Penitence Station con destino a un recorrido fascinante por todo el parque temático de PortAventura!</descripcion>
+		<nombreIMG>penitence-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>TOMAHAWK</nombre>
+		<lugar>Far West</lugar>
+		<descripcion>Las trepidantes subidas y bajadas de esta atracción infantil pondrán a prueba el valor de todos los que se atrevan a desafiar a la montaña rusa Tomahawk.</descripcion>
+		<nombreIMG>tomahawk-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>LABERINTO BLACKSMITH</nombre>
+		<lugar>Far West</lugar>
+		<descripcion>A pesar del paso de los años y del desuso, el viejo y destartalado Laberinto de BlackSmith todavía sigue en pie. ¡Atrévete a entrar y desentraña todos sus misterios!</descripcion>
+		<nombreIMG>laberinto-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>GRAND CANYON RAPIDS</nombre>
+		<lugar>Far West</lugar>
+		<descripcion>Refréscate mientras recorres los rápidos del salvaje río Colorado en esta divertidísima atracción del mundo Far West de PortAventura.</descripcion>
+		<nombreIMG>rapidos-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>CAROUSEL</nombre>
+		<lugar>Far West</lugar>
+		<descripcion>En el corazón de un lejano poblado encontramos Carousel de PortAventura Park, el famoso tiovivo para pequeños y mayores.</descripcion>
+		<nombreIMG>carousel-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>WILD BUFFALOS</nombre>
+		<lugar>Far West</lugar>
+		<descripcion>Aprende a conducir estos desbocados autos de choque y compite con el resto de habitantes para ganar el título de campeón del rodeo Wild Buffalos PortAventura.</descripcion>
+		<nombreIMG>wild-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>STAMPIDA</nombre>
+		<lugar>Far West</lugar>
+		<descripcion>La atracción Stampida PortAventura es mucho más que una montaña rusa de madera, rememora el sistema que utilizaban los primeros colonizadores para adquirir el terreno: ¡el primero que llega, se lo queda!</descripcion>
+		<nombreIMG>stampida-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>VOLPAIUTE</nombre>
+		<lugar>Far West</lugar>
+		<descripcion>Demuestra quién es el más valiente desafiando a la tribu de los VolPaiute. ¡Atrévete a subir en esta atracción giratoria de PortAventura World! </descripcion>
+		<nombreIMG>volpaiute-min</nombreIMG>
+	</atraccion>
+	<atraccion>
+		<nombre>CRAZY BARRELS</nombre>
+		<lugar>Far West</lugar>
+		<descripcion>¡Diversión llena de sorpresas en la atracción Crazy Barrels! Estos locos barriles quieren que no pares de girar mientras vives su aceleración.</descripcion>
+		<nombreIMG>barrels-min</nombreIMG>
+	</atraccion>
+</atracciones>

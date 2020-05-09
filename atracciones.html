@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nuestras atracciones</title>
+	<link rel="stylesheet" type="text/css" href="css/atracciones.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<!-- Header -->
+<div class="btn-tlf"><button onclick="mobileHeader()" class="btn-tlf2"></button></div></div>
+	<script type="text/javascript">
+		function mobileHeader() {
+			if (document.getElementById("headerTLF").style.display == "none") {
+				document.getElementById("headerTLF").style.display = "block";
+
+			}else{
+				document.getElementById("headerTLF").style.display = "none";
+			}
+		}
+	</script>
+	<div class="header">
+		<div id="logo"></div>
+		<div class="botonera">
+			<div class="linkbtn">
+				<a href="atracciones.html">
+					<div class="boton" style="background-color: #888888">
+						<center>
+							<h3>Atracciones</h3>
+						</center>
+					</div>
+				</a>
+			</div>
+			<div class="linkbtn">
+				<a href="reserva.html">
+					<div class="boton">
+						<center>
+							<h3>Precios</h3>
+						</center>
+					</div>
+				</a>
+			</div>
+			<div class="linkbtn">
+				<a href="reserva.html">
+					<div class="boton">
+						<center>
+							<h3>Reserva tu entrada</h3>
+						</center>
+					</div>
+				</a>
+			</div>
+			<div class="linkbtn">
+				<a href="index.html">
+					<div class="boton">
+						<center>
+							<h3>Sobre nosotros</h3>
+						</center>
+					</div>
+				</a>
+			</div>
+		</div>			
+	</div>
+		<div class="headerTLF" id="headerTLF" style="display: none;">
+			<div class="botonera">
+				<div class="linkbtn">
+					<a href="atracciones.html">
+						<div class="boton" style="background-color: #888888">
+							<center>
+								<h3>Atracciones</h3>
+							</center>
+						</div>
+					</a>
+				</div>
+				<div class="linkbtn">
+					<a href="reserva.html">
+						<div class="boton">
+							<center>
+								<h3>Precios</h3>
+							</center>
+						</div>
+					</a>
+				</div>
+				<div class="linkbtn">
+					<a href="reserva.html">
+						<div class="boton">
+							<center>
+								<h3>Reserva tu entrada</h3>
+							</center>
+						</div>
+					</a>
+				</div>
+				<div class="linkbtn">
+					<a href="index.html">
+						<div class="boton">
+							<center>
+								<h3>Sobre nosotros</h3>
+							</center>
+						</div>
+					</a>
+				</div>
+			</div>			
+		</div>
+	</div>
+<!-- Fin ndel header -->
+
+
+<div style="height: 100%">
+	<br>
+	<center><h1>¡Nuestras atracciones!</h1></center>
+	<div id="atraccionesContainer">
+	<script type="text/javascript">
+		var obj = JSON.parse('{ "atracciones": { "atraccion": [ { "nombre": "FURIUS BACO", "lugar": "Mediterrània", "descripcion": "Descubre la increíble catapulta horizontal de PortAventura, que te propulsará a 135 km/h en apenas 3 segundos.", "nombreIMG": "furiusbaco-min" }, { "nombre": "PORT DE LA DRASSANA", "lugar": "Mediterrània", "descripcion": "Embárcate con nosotros en un paseo en barco hasta la antigua China.", "nombreIMG": "port-min" }, { "nombre": "ESTACIÓ DEL NORD", "lugar": "Mediterrània", "descripcion": "No dejes pasar la oportunidad de subir a esta locomotora con destino al Lejano Oeste.", "nombreIMG": "estacio-min" }, { "nombre": "TUTUKI SPLASH", "lugar": "Polynesia", "descripcion": "Siente en tu cuerpo la furia del volcán y escapa de él de la manera más refrescante.", "nombreIMG": "tutuki-min" }, { "nombre": "CANOES", "lugar": "Polynesia", "descripcion": "Pensada para que también los más pequeños disfruten de las emociones de la selva de Polynesia.", "nombreIMG": "canoes-min" }, { "nombre": "KONTIKI", "lugar": "Polynesia", "descripcion": "Solo el catamarán Kontiki resiste a la furia de una tormenta de Polynesia. Únete a la expedición y resiste a los movimientos de un auténtico temporal.", "nombreIMG": "kontiki-min" }, { "nombre": "SHAMBHALA", "lugar": "China", "descripcion": "Sus 76 metros de altura la convierten en la montaña rusa más alta y con la caída más larga de PortAventura Park.", "nombreIMG": "shambala-min" }, { "nombre": "DRAGON KHAN", "lugar": "China", "descripcion": "Un icono entre las montañas rusas. Los 8 loopings y más de 110 km/h de Dragon Khan son una tentación desde la primera vez que la ves.", "nombreIMG": "dragon-min" }, { "nombre": "ANGKOR", "lugar": "China", "descripcion": "Dispara con la pistola de agua a todos los obstáculos que se pongan en tu camino mientras cruzas la jungla y desembarca como un auténtico héroe.", "nombreIMG": "angkor-min" }, { "nombre": "WAITAN PORT", "lugar": "China", "descripcion": "Esta atracción es un agradable paseo en barca para ir desde PortAventura China hasta PortAventura Mediterrània", "nombreIMG": "waitan-min" }, { "nombre": "COBRA IMPERIAL", "lugar": "China", "descripcion": "Cobra Imperial de PortAventura China es uno de los símbolos de esta área temática y está pensada para satisfacer los deseos de los más pequeños de la casa.", "nombreIMG": "cobra-min" }, { "nombre": "TEA CUPS", "lugar": "China", "descripcion": "En esta atracción de PortAventura World te están esperando unas tazas de té gigantes para que te subas a girar en ellas con toda tu familia.", "nombreIMG": "tea-min" }, { "nombre": "ÁREA INFANTIL", "lugar": "China", "descripcion": "El área infantil de PortAventura Park está pensada para que los niños creen sus propias aventuras en los toboganes infantiles, columpios y pasarelas que llenan la zona infantil.", "nombreIMG": "infantil-min" }, { "nombre": "YUCATÁN", "lugar": "México", "descripcion": "Una serpiente con cabeza de dragón te da la bienvenida a México PortAventura. ¿Serás capaz de resistir sus giros?", "nombreIMG": "yucatan-min" }, { "nombre": "LOS POTRILLOS", "lugar": "México", "descripcion": "Unos simpáticos y revoltosos caballitos mexicanos llevarán a los más pequeños a través de la vegetación más densa y las tierras más exóticas de México PortAventura.", "nombreIMG": "potrillos-min" }, { "nombre": "ARMADILLOS", "lugar": "México", "descripcion": "Estos divertidos animales mexicanos se han puesto sus mejores galas para que los más pequeños den un agradable paseo por la colonial zona de México PortAventura.", "nombreIMG": "armadillos-min" }, { "nombre": "SERPIENTE EMPLUMADA", "lugar": "México", "descripcion": "Únete al ritual y gira alrededor del tótem sagrado a lomos de la Serpiente Emplumada;y vive al máximo las subidas y bajadas de  esta poderosa atracción de PortAventura en el área de México.", "nombreIMG": "serpiente-min" }, { "nombre": "HURAKAN CONDOR", "lugar": "México", "descripcion": "Una atracción con 100 metros de caída libre solo apta para los visitantes más aventureros de México PortAventura.", "nombreIMG": "hurakan-min" }, { "nombre": "TREN DE LA MINA", "lugar": "México", "descripcion": "Recorre a toda velocidad la mina de El Diablo en un auténtico vagón de madera y no te pierdas ni un solo detalle.", "nombreIMG": "mina-min" }, { "nombre": "EL SECRETO DE LOS MAYAS", "lugar": "México", "descripcion": "Un laberinto de sensaciones y efectos visuales de 175 m2 de longitud, poseído por los dioses mayas, que pondrá a prueba tus habilidades como aventurero de PortAventura World.", "nombreIMG": "mayas-min" }, { "nombre": "BUFFALO RODEO", "lugar": "Far West", "descripcion": "Aprende el arte del rodeo y monta tu propio búfalo en esta atracción del mundo Far West de PortAventura, en la que impera la ley del más fuerte.", "nombreIMG": "rodeo-min" }, { "nombre": "SILVER RIVER FLUME", "lugar": "Far West", "descripcion": "Móntate en un divertido tronco talado y refréscate en un entretenido camino hasta el aserradero de PortAventura World.", "nombreIMG": "silver-min" }, { "nombre": "PENITENCE STATION", "lugar": "Far West", "descripcion": "¡Pasajeros al tren! ¡Se anuncia la salida del tren de Penitence Station con destino a un recorrido fascinante por todo el parque temático de PortAventura!", "nombreIMG": "penitence-min" }, { "nombre": "TOMAHAWK", "lugar": "Far West", "descripcion": "Las trepidantes subidas y bajadas de esta atracción infantil pondrán a prueba el valor de todos los que se atrevan a desafiar a la montaña rusa Tomahawk.", "nombreIMG": "tomahawk-min" }, { "nombre": "LABERINTO BLACKSMITH", "lugar": "Far West", "descripcion": "A pesar del paso de los años y del desuso, el viejo y destartalado Laberinto de BlackSmith todavía sigue en pie. ¡Atrévete a entrar y desentraña todos sus misterios!", "nombreIMG": "laberinto-min" }, { "nombre": "GRAND CANYON RAPIDS", "lugar": "Far West", "descripcion": "Refréscate mientras recorres los rápidos del salvaje río Colorado en esta divertidísima atracción del mundo Far West de PortAventura.", "nombreIMG": "rapidos-min" }, { "nombre": "CAROUSEL", "lugar": "Far West", "descripcion": "En el corazón de un lejano poblado encontramos Carousel de PortAventura Park, el famoso tiovivo para pequeños y mayores.", "nombreIMG": "carousel-min" }, { "nombre": "WILD BUFFALOS", "lugar": "Far West", "descripcion": "Aprende a conducir estos desbocados autos de choque y compite con el resto de habitantes para ganar el título de campeón del rodeo Wild Buffalos PortAventura.", "nombreIMG": "wild-min" }, { "nombre": "STAMPIDA", "lugar": "Far West", "descripcion": "La atracción Stampida PortAventura es mucho más que una montaña rusa de madera, rememora el sistema que utilizaban los primeros colonizadores para adquirir el terreno: ¡el primero que llega, se lo queda!", "nombreIMG": "stampida-min" }, { "nombre": "VOLPAIUTE", "lugar": "Far West", "descripcion": "Demuestra quién es el más valiente desafiando a la tribu de los VolPaiute. ¡Atrévete a subir en esta atracción giratoria de PortAventura World! ", "nombreIMG": "volpaiute-min" }, { "nombre": "CRAZY BARRELS", "lugar": "Far West", "descripcion": "¡Diversión llena de sorpresas en la atracción Crazy Barrels! Estos locos barriles quieren que no pares de girar mientras vives su aceleración.", "nombreIMG": "barrels-min" } ] } }');
+
+
+		for (var i = 0; i < obj.atracciones.atraccion.length; i++)
+		{
+			let ind = ''
+			document.writeln('<div class="atraccion" style="background-image: url(img/atracciones/'+obj.atracciones.atraccion[i].nombreIMG+'.jpg)">');
+			document.writeln('<div class="hint">');
+			document.writeln('<h3>'+obj.atracciones.atraccion[i].nombre+'</h3><p>'+obj.atracciones.atraccion[i].descripcion+'</p><p>Zona: '+obj.atracciones.atraccion[i].lugar+'</p>');
+			document.writeln('<br>');
+			document.writeln('</div></div>');
+		}
+		
+	</script>
+	</div>
+</div>
+</body>
+</html>
